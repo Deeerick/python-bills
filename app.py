@@ -21,8 +21,6 @@ def nova_entrada():
     conn.commit()
     conn.close()
 
-    print("EVENTO REGISTRADO COM SUCESSO!!!")
-
 
 def nova_saida():
     nome_fornecedor = input("Digite o nome do fornecedor: ")
@@ -39,8 +37,6 @@ def nova_saida():
     
     conn.commit()
     conn.close()
-
-    print("EVENTO REGISTRADO COM SUCESSO!!!")
 
 
 if __name__ == "__main__":
